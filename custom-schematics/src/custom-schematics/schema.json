@@ -1,0 +1,18 @@
+{
+	"$schema": "http://json-schema.org/schema",
+	"$id":"customSchematics",
+	"type":"object",
+	"description": "Greet people",
+	"properties": {
+		"name":{
+			"type":"string",
+			"description": "name whom we want to greet",
+			"$default":{
+				"$source":"argv",
+				"index":0
+			},
+			"x-prompt":"Whom u want to greet?"
+		}
+	},
+	"required": ["name"]
+}

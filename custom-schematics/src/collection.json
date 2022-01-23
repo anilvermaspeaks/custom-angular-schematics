@@ -3,7 +3,8 @@
   "schematics": {
     "custom-schematics": {
       "description": "A blank schematic.",
-      "factory": "./custom-schematics/index#customSchematics"
+      "factory": "./custom-schematics/index#customSchematics",
+	  "schema": "./custom-schematics/schema.json"
     }
   }
 }
