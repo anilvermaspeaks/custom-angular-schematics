@@ -1,3 +1,3 @@
 export interface IOptions {
-  name: string;
+  componentName: string;
 }
